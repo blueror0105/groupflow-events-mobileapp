@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+APP_ENV=production eas build --auto-submit

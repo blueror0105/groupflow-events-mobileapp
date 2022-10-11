@@ -1,0 +1,130 @@
+import { StyleSheet } from "react-native";
+
+const Styles = StyleSheet.create({
+  button: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    width: "100%",
+    height: 50,
+    borderRadius: 10,
+    backgroundColor: "#00C298",
+  },
+  buttonText: {
+    fontSize: 16,
+    color: "white",
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  buttonAlt: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    width: "100%",
+    height: 50,
+    borderRadius: 10,
+    backgroundColor: "#efefef",
+  },
+  buttonAltText: {
+    fontSize: 16,
+    color: "black",
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  groupTitleButton: {
+    borderRadius: 6,
+    height: 60,
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  groupTitleButtonText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  container: {
+    flex: 1,
+    backgroundColor: "transparent",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  standAloneLink: {
+    paddingVertical: 20,
+    borderBottomColor: "#525252",
+    borderBottomWidth: 1,
+    justifyContent: "center",
+    flexDirection: "row",
+    width: "100%",
+  },
+  linkText: {
+    flex: 1,
+    fontSize: 16,
+    color: "#525252",
+  },
+  row: {
+    backgroundColor: "skyblue",
+  },
+  separator: {
+    marginVertical: 30,
+    height: 1,
+    width: "80%",
+  },
+  title: {
+    fontSize: 22,
+    marginTop: 5,
+    marginBottom: 20,
+    fontWeight: "bold",
+  },
+  text: {
+    fontWeight: "normal",
+    fontSize: 16,
+  },
+  inputContStyle: {
+    marginTop: 20,
+    backgroundColor: "rgba(255,255,255,.2)",
+    height: 50,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "white",
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 10,
+  },
+  inputIcon: {
+    width: 24,
+    height: 24,
+  },
+  inputStyle: {
+    fontSize: 20,
+    paddingLeft: 10,
+    paddingVertical: 2,
+    width: "100%",
+    height: "100%",
+    color: "white",
+  },
+  notificationContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 30,
+    paddingHorizontal: 20,
+  },
+  notificationHeader: {
+    fontSize: 16,
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+    marginBottom: 10,
+  },
+  notificationItem: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    marginBottom: 30,
+  },
+});
+
+export default Styles;
