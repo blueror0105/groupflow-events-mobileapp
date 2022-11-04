@@ -65,10 +65,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       {
         file: "sentry-expo/upload-sourcemaps",
         config: {
-          organization: "moxley-data-inc",
-          project: "groupflow-mobile",
-          authToken:
-            "6f596f1ca45b4a2c82b82d9b43598144e0aab938fe6d4306a97bbe6860437b13",
         },
       },
     ],
@@ -80,7 +76,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       process.env.WEB_BASE_URL || `http://${localhost}:3002`,
     environment: process.env.APP_ENV || "development",
     eas: {
-      projectId: "911cda85-f358-40a8-ad9a-5db20fd2d3c4",
     },
   },
 });
