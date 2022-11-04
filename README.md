@@ -6,10 +6,6 @@ Member Platform mobile app, written in React Active on Expo.
 
 Expo app
 
-- owner username: moxicon
-- slug: mp1md
-- id: 927befd4-e914-46ed-b9ef-3453f5a00268
-
 ## Get Started
 
 To start emulator for testing:
